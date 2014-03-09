@@ -8,6 +8,9 @@ namespace HelloWinForm_1
         public Form1()
         {
             InitializeComponent();
+
+            // Load the form caption with current version
+            Text = "Version: " + Application.ProductVersion;
         }
 
         private void Form1_Resize(object sender, EventArgs e)
