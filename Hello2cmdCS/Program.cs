@@ -10,7 +10,7 @@ namespace Hello2cmdCS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world C#!-Version 2");
+            Console.WriteLine("Hello world C#!-Version 1");
             Console.ReadKey();
         }
     }
