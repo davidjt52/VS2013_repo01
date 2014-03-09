@@ -11,6 +11,7 @@ namespace HelloWinForm_1
 
             // Load the form caption with current version
             Text = "Version: " + Application.ProductVersion;
+            Form1_Resize((object)this, new EventArgs());
         }
 
         private void Form1_Resize(object sender, EventArgs e)
