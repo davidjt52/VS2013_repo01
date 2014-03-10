@@ -16,8 +16,8 @@ namespace HelloWinForm_1
 
         private void Form1_Resize(object sender, EventArgs e)
         {
-            label2.Text = Width + "x" + Height + "  :  " + ClientSize.Width + "/" + ClientSize.Height;
-            centerControl(label1);
+            Text = Width + "x" + Height + "  :  " + ClientSize.Width + "/" + ClientSize.Height;
+            //centerControl(label1);
         }
 
         private void centerControl(Control ctl)
